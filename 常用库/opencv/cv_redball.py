@@ -14,6 +14,7 @@ H, S, V = (2, 80, 46)
 HD, SD, VD = (10, 255, 255)
 
 
+
 def main():
     cv2.namedWindow(window_name)
 
