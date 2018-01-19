@@ -1,15 +1,14 @@
 # encoding=utf-8
 # Created by Mr.Long on 2017/12/17 0017.
 # Tensorflow与sklearn 构建线性回归的比较
-import tensorflow as tf
+import matplotlib.pyplot as plt
 import numpy as np
-
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
 from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
-from linear_regression.linear_regression_model import LinearRegressionModel as lrm
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
+from regression.linear_regression.linear_regression_model import LinearRegressionModel as lrm
 
 if __name__ == '__main__':
     x, y = make_regression(7000)
