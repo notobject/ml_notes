@@ -1,6 +1,6 @@
 # 学习笔记大纲
 
-[ML启程系列笔记](http://blog.csdn.net/zxlong7749/article/details/79099634)的同步笔记代码分享
+[ML启程系列笔记](http://notobject.com)的同步笔记代码分享
 
 
 # 一、开发环境搭建
